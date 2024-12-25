@@ -1,0 +1,115 @@
+@font-face {
+    font-family: "roboto";
+    src: url("../../../Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family:"stylish" ;
+    src: url("../../../Stylish/Stylish-Regular.ttf");
+}
+*{
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: "roboto",sans-serif;
+}
+
+.back-img{
+    background-image: url(back-img.png);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.logo-header{
+    height: 3.125rem;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-right: 50px;
+}
+.logo-img a{
+    color: white;
+    
+}
+.logo-img a i{
+    font-size: 1rem;
+    padding: 3px;
+    font-size: 1.563rem;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-content: center;
+}
+.header-right{
+    display: flex;
+    margin-right: 100px;
+}
+.header-right ul{
+    display: flex;
+
+
+    
+
+}
+
+.header-right ul li{
+    list-style: none;
+    margin-right: 20px;
+    cursor: pointer;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+.header-left{
+    font-weight: bolder;
+    margin-left: 25px;
+    font-family: "stylish";
+    font-weight:700 ;
+
+}
+#element{
+    color: rgba(0, 0, 0, 0.651);
+    font-style: italic;
+    
+}
+.name-heading{
+    margin-top:11.25rem ;
+    margin-left: 7.313rem;
+}
+.name-heading h1{
+    font-size: 40px;
+    font-weight: 250;
+    font-family: "stylish", sans-serif;
+    font-style: bold;
+}
+.name-heading h2{
+    margin-top: 2rem;
+    font-size: 52px;
+    font-family: "stylish",sans-serif;
+}
+.name-heading h2 span{
+    font-family: "stylish",sans-serif;
+    font-weight: 700;
+    
+}
+.name-heading p{
+    width: 30.438rem;
+    margin-top: 23px;
+    font-style: italic;
+}
+section button{
+    width: 12.5rem;
+    height: 3.125rem;
+    border: none;
+    outline: none;
+    background: linear-gradient(rgba(71, 118, 230, 1),rgba(142, 84, 233, 1));    
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 7.313rem;
+    margin-top: 2rem;
+    &:hover{
+        text-decoration: underline;
+    }
+}
